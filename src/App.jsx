@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   const location = useLocation();
   const routeColors = {
-    "/": "#262628", // Home
+    "/": "#262628",
     "/red": "#dc1616",
     "/orange": "#dd7213",
     "/yellow": "#e5e90b",
@@ -29,7 +29,7 @@ function App() {
   return (
     <>
       <div id="container">
-        {/* Dynamic color applied here */}
+        {/* color go here */}
         <h1 className="title" style={{ color: currentColor }}>
           Look, I used React Router.
         </h1>
