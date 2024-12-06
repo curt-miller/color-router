@@ -1,1 +1,1 @@
-A color picking thing made by Curt Miller using React Routers
+A color picking thing made by Curt using react routers
